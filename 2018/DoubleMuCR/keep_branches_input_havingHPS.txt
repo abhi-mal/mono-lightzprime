@@ -1,0 +1,39 @@
+drop *
+
+keep HLT_PFMETNoMu120_PFMHTNoMu120_IDTight*
+
+keep Electron*
+
+keep Muon*
+
+keep Photon*
+
+keep Jet*
+
+keep FatJet*
+
+keep SubJet*
+
+keep Tau*
+
+keep run* 
+
+keep luminosity*
+
+keep event*
+
+keep *MET*
+
+keep Flag*
+
+keep *GenPart*
+
+keep *GenDressedLepton*
+
+keep Pileup*
+
+keep GenJet*
+
+keep fixedGrid*
+
+keep SubGenJetAK8*

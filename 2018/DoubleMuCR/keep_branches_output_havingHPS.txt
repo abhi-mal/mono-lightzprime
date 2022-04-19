@@ -1,0 +1,29 @@
+drop * # start with all
+
+#AssociatedJet(selected from Ak4Jets) and AssociatedFatJet(selected from AK8Jets) and Subjets
+keep Jet*
+keep FatJet*
+keep SubJet*
+keep Associated*
+
+#HPSJets(Highest Pt tau object)
+keep HPSJet_*
+
+#MET
+keep *MET*
+drop HLT*
+
+#for identifying event
+keep run
+keep luminosity*
+keep event
+
+# CR object
+#keep Muon*
+
+#others
+keep recoil
+keep dimuon*
+keep muon1*
+keep muon2*
+keep evt_wt_*
